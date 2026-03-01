@@ -1,0 +1,117 @@
+* {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #0a0a0a;
+            color: #d1d1d1;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.5;
+        }
+
+        header {
+            background-color: #000000;
+            padding: 25px 0;
+            text-align: center;
+            border-bottom: 3px solid #8a0303;
+            box-shadow: 0 5px 15px rgba(138, 3, 3, 0.5);
+        }
+
+        header h1 {
+            color: #e0e0e0;
+            font-family: 'Impact', 'Arial Black', sans-serif; 
+            letter-spacing: 2px;
+            text-transform: uppercase;
+        }
+
+        nav {
+            background-color: #141414;
+            text-align: center;
+            padding: 12px 0;
+            border-bottom: 1px solid #333;
+        }
+
+        nav a {
+            color: #888;
+            text-decoration: none;
+            margin: 0 20px;
+            font-weight: bold;
+            font-size: 15px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            transition: color 0.5s ease;
+        }
+
+        nav a:hover {
+            color: #ff0000;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1100px;
+            margin: 30px auto;
+        }
+
+        main {
+            display: flex;
+            gap: 25px;
+        }
+
+        .artikel-utama, .sidebar {
+            background-color: #171717;
+            padding: 25px;
+            border-radius: 5px;
+            border-left: 5px solid #8a0303;
+            box-shadow: inset 0 0 10px rgba(0,0,0,0.8);
+        }
+
+        .artikel-utama {
+            flex: 2.5;
+        }
+
+        .sidebar {
+            flex: 1;
+        }
+
+        h2 {
+            color: #ffffff;
+            margin-bottom: 15px;
+            font-family: 'Impact', 'Arial Black', sans-serif;
+            letter-spacing: 2px;
+        }
+
+        p {
+            margin-bottom: 15px;
+            font-size: 15px;
+        }
+
+        .btn-merah {
+            background-color: #8a0303;
+            color: white;
+            border: none;
+            padding: 10px 25px;
+            cursor: pointer;
+            font-weight: bold;
+            border-radius: 5px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            transition: background-color 0.5s, transform 0.5s;
+        }
+
+        .btn-merah:hover {
+            background-color: #ff0000;
+            transform: scale(1.05);
+            box-shadow: 0 0 10px rgba(255, 0, 0, 0.5);
+        }
+
+        footer {
+            background-color: #000000;
+            color: #555;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 50px;
+            border-top: 1px solid #333;
+            font-size: 15px;
+        }
